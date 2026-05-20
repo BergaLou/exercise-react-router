@@ -7,6 +7,7 @@ import SongInfo from "../pages/SongInfo";
 const routes = (
   <>
     <Route path="/" element={<Home />} />
+    <Route path="/song/:songTitle" element={<SongInfo />} />
     {/* Define your dynamic route here below */}
   </>
 );
